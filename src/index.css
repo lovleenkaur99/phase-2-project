@@ -1,4 +1,28 @@
-body {
+body { 
+  background:
+        radial-gradient(circle farthest-side at 0% 50%,#f7f8f3 23.5%,#0000 0)33.6px 48px,
+        radial-gradient(circle farthest-side at 0% 50%,#aeddcb 24%,#0000 0)30.4px 48px,
+        linear-gradient(#f7f8f3 14%,#0000 0, #0000 85%,#f7f8f3 0)0 0,
+        linear-gradient(150deg,#f7f8f3 24%,#aeddcb 0,#aeddcb 26%,#0000 0,#0000 74%,#aeddcb 0,#aeddcb 76%,#f7f8f3 0)0 0,
+        linear-gradient(30deg,#f7f8f3 24%,#aeddcb 0,#aeddcb 26%,#0000 0,#0000 74%,#aeddcb 0,#aeddcb 76%,#f7f8f3 0)0 0,
+        linear-gradient(90deg,#aeddcb 2%,#f7f8f3 0,#f7f8f3 98%,#aeddcb 0%)0 0 #f7f8f3;
+  background-size: 64px 96px;
+  background-color: #f7f8f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +34,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

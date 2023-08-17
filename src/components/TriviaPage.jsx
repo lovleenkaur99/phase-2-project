@@ -1,9 +1,14 @@
 import TriviaCard from "./TriviaCard"
+import { useLoaderData } from "react-router-dom"
 
-function TriviaPage() { 
+function TriviaPage({trivia, filteredArray}) { 
+
+    const {questions} = useLoaderData()
+    
     return ( 
         <div>
-            <TriviaCard/>
+            {filteredArray.map(trivia => <TriviaCard key={trivia.id} triviaObj={trivia} /> )}
+            
         </div>
     )
 }

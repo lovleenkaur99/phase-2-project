@@ -1,353 +1,653 @@
-{ 
-    "trivia" : [ 
-        { 
-            "category" : "General Knowledge",
-            "difficulty" : "Easy",
-            "questions" : "On a dartboard, what number is directly opposite No. 1?",
-            "correct-answer" : "19",
-            "incorrect-answers" : ["20","12","15"]
-        },
-        { 
-            "category" : "General Knowldge",
-            "difficulty" : "Easy",
-            "questions" : "Five dollars is worth how many nickles?",
-            "correct-answer" : "100",
-            "incorrect-answers" : ["50","25","69"]
-        },
-        { 
-            "category" : "General Knowldge",
-            "difficulty" : "Easy",
-            "questions" : "What do the letters in the GMT time zone stand for?",
-            "correct-answer" : "Greenwich Mean Time",
-            "incorrect-answers" : ["Global Meridian Time","General Median Time","Glasgow Man Time"]
-        },
-        { 
-            "category" : "General Knowledge",
-            "difficulty" : "Medium",
-            "questions" : "What are the three starter Pokemon available in Pokemon Black and White?",
-            "correct-answer" : "Snivy, Tepig, Oshawott",
-            "incorrect-answers" : ["Snivy, Fennekin, Froakie","Chespin, Tepig, Froakie","Chespin, Fennekin, Oshawott"]
-        },
-        { 
-            "category" : "General Knowldge",
-            "difficulty" : "Medium",
-            "questions" : "Which country drives on the left side of the road?",
-            "correct-answer" : "Japan",
-            "incorrect-answers" : ["Germany","Russia","China"]
-        },
-        { 
-            "category" : "General Knowldge",
-            "difficulty" : "Medium",
-            "questions" : "After how many years would you celebrate your crystal anniversary?",
-            "correct-answer" : "15",
-            "incorrect-answers" : ["20","10","25"]
-        },
-        { 
-            "category" : "General Knowldge",
-            "difficulty" : "Hard",
-            "questions" : "The word 'aprosexia' means which of the following?",
-            "correct-answer" : "The inability to concentrate on anything",
-            "incorrect-answers" : ["The inability to make decisions","A feverish desire to rip one's clothes off","The inability to stand up"]
-        },
-        { 
-            "category" : "General Knowldge",
-            "difficulty" : "Hard",
-            "questions" : "Which of these banks are NOT authorized to issue currency notes in Hong Kong?",
-            "correct-answer" : "OCBC",
-            "incorrect-answers" : ["HSBC","Standard Chartered","Bank of China"]
-        },
-        { 
-            "category" : "General Knowldge",
-            "difficulty" : "Hard",
-            "questions" : "In 'Resident Evil', how many inventory slots does Jill have at the start of the game?",
-            "correct-answer" : "10",
-            "incorrect-answers" : ["6","8","12"]
-        },
-        { 
-            "category" : "General Knowldge",
-            "difficulty" : "Hard",
-            "questions" : "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?",
-            "correct-answer" : "Harry",
-            "incorrect-answers" : ["Gus","Phineas","Ezra"]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Easy",
-            "questions" : "The song 'Little April Shower' features in which Disney cartoon film?",
-            "correct-answer" : "Bambi",
-            "incorrect-answers" : ["Cinderella","Pinocchio","The Jungle Book"]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Easy",
-            "questions" : "What was the first Disney movie to use CGI?",
-            "correct-answer" : "The Black Cauldron",
-            "incorrect-answers" : ["Tron","Toy Story","Fantasia"]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Easy",
-            "questions" : "Which of the following is not a Flintstones character?",
-            "correct-answer" : "Lord Rockingham IX",
-            "incorrect-answers" : ["Rockhead Slate","The Great Gazoo","Barney Rubble"]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Medium",
-            "questions" : "Which city did Anger berate for ruining pizza in 'Inside Out'?",
-            "correct-answer" : "San Francisco",
-            "incorrect-answers" : ["Minnesota","Washington","California"]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Medium",
-            "questions" : "What Cartoon Network show aired its first episode on November 4th, 2013?",
-            "correct-answer" : "Steven Universe",
-            "incorrect-answers" : ["Regular Show","Adventure Time","The Amazing World of Gumball"]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Medium",
-            "questions" : "In the TV show 'Rick and Morty', Rick uses the catchphrase 'Wubba Lubba Dub Dub', which means what in Birdperson?",
-            "correct-answer" : "I am in great pain, please help me.",
-            "incorrect-answers" : ["I pray that my life ends soon.","Lets get this party started!","I am suffering, please help me."]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Hard",
-            "questions" : "In the 'Star Wars' universe, what species is Grand Admiral Thrawn?",
-            "correct-answer" : "Chiss",
-            "incorrect-answers" : ["Gungans","Pantorans","Twi'lek"]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Hard",
-            "questions" : "In 'Rick and Morty', from which dimension do Rick and Morty originate from?",
-            "correct-answer" : "C-137",
-            "incorrect-answers" : ["J1977","C-136","C500-a"]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Hard",
-            "questions" : "What town was 'Springfield' from 'The Simpsons' originally named after?",
-            "correct-answer" : "Springfield, Oregon",
-            "incorrect-answers" : ["Springfield, Missouri","Springfield, Illinois","Springfield, Massachusetts"]
-        },
-        { 
-            "category" : "Cartoon and Animation",
-            "difficulty" : "Hard",
-            "questions" : "In 'Gravity Falls', what does Quentin Trembley do when he is driven out from the White House?",
-            "correct-answer" : "Eat a salamander and jump out the window.",
-            "incorrect-answers" : ["Leave in peace.","Jump out the window.","Release 1,000 captive salamanders into the white house."]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Easy",
-            "questions": "In 'Inuyasha', what are the heroes are looking to collect?",
-            "correct-answer": "Jewel Shards",
-            "incorrect-answers" : ["Dragon Balls","Rave Stones","Sacred Stones"]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Easy",
-            "questions": "In 'The Melancholy of Haruhi Suzumiya' series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.",
-            "correct-answer": "God",
-            "incorrect-answers" : ["Alien","Time Traveler","Esper"]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Easy",
-            "questions": "Who is the main heroine of the anime, Full Metal Panic!",
-            "correct-answer": "Kaname Chidori",
-            "incorrect-answers" : ["Teletha Testarossa","Melissa Mao","Kyoko Tokiwa"]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Which animation studio animated the 2016 anime ‘Mob Psycho 100’?",
-            "correct-answer": "Bones",
-            "incorrect-answers" : ["A-1 Pictures","Shaft","Madhouse"]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Medium",
-            "questions": "What year does Part 7 of 'JoJo&'s Bizarre Adventure' take place in?",
-            "correct-answer": "1890",
-            "incorrect-answers" : ["1888","1999","2003"]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Medium",
-            "questions": "In 'One Piece', who is the girl who overcame her enslaved past and became an agent of an army to fight the corrupt government?",
-            "correct-answer": "Koala",
-            "incorrect-answers" : ["Boa Hancock","Nico Robin","Emporio Ivankov "]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Hard",
-            "questions": "In the first episode of Yu-Gi-Oh: Duel Monsters, what book is Seto Kaiba seen reading at Domino High School?",
-            "correct-answer": "Thus Spoke Zarathustra",
-            "incorrect-answers" : ["Beyond Good and Evil","The Republic","Meditations"]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Hard",
-            "questions": "In 'Hunter x Hunter', what are members in Killua&#039;s family known for being?",
-            "correct-answer": "Assassins",
-            "incorrect-answers" : ["Bandits","Hunters","Ninjas"]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Hard",
-            "questions": "In the 'Dragon Ball' franchise, what is the name of Goku's brother?",
-            "correct-answer": "Raditz",
-            "incorrect-answers" : ["Gohan","Vegeta","Bardock"]
-        },
-        { 
-            "category" : "Japanese Anime & Manga",
-            "difficulty": "Hard",
-            "questions": "Which animation studio produced 'Log Horizon'?",
-            "correct-answer": "Satelite",
-            "incorrect-answers" : ["Sunrise","Xebec","Production I.G"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Easy",
-            "questions": "Gwyneth Paltrow has a daughter named...?",
-            "correct-answer": "Apple",
-            "incorrect-answers" : ["Lily","French","Dakota"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Easy",
-            "questions": "Which celebrity announced his presidency in 2015?",
-            "correct-answer": "Kanye West",
-            "incorrect-answers" : ["Donald Trump","Leonardo DiCaprio","Miley Cyrus"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Easy",
-            "questions": "Aubrey Graham is better known as",
-            "correct-answer": "Drake",
-            "incorrect-answers" : ["Travis Scott","Lil Wayne","2 Chainz"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Medium",
-            "questions": "Which famous New York Yankees outfielder did Marilyn Monroe marry?",
-            "correct-answer": "Joe DiMaggio",
-            "incorrect-answers" : ["Tino Martinez","Babe Ruth","Mason Williams"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Medium",
-            "questions": "In which of these TV shows did the chef Gordon Ramsay not appear?",
-            "correct-answer": "Auction Hunters",
-            "incorrect-answers" : ["Ramsay's Kitchen Nightmares","Hotel Hell","Hell's Kitchen"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Medium",
-            "questions": "What caused Jake Lloyd who played Anakin Skywalker in The Phantom Menace to quit acting?",
-            "correct-answer": "Bullying",
-            "incorrect-answers" : ["Criminal Record","Nomination for Worst Actor","Racism"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Hard",
-            "questions": "Billy Herrington is from which US state?",
-            "correct-answer": "New York",
-            "incorrect-answers" : ["Arizona","California","Georgia"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Hard",
-            "questions": "How tall is Tom Cruise?",
-            "correct-answer": "5feet 7inches",
-            "incorrect-answers" : ["5feet 9inches","5feet 4inches","5feet 5inches"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Hard",
-            "questions": "When was Elvis Presley born?",
-            "correct-answer": "January 8, 1935",
-            "incorrect-answers" : ["December 13, 1931","July 18, 1940","April 17, 1938"]
-        },
-        { 
-            "category" : "Celebrity",
-            "difficulty": "Hard",
-            "questions": "What year was O.J. Simpson aquitted of his murder charges?",
-            "correct-answer": "1995",
-            "incorrect-answers" : ["1992","1996","1991"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Easy",
-            "questions": "Which city is the capital of the United States of America?",
-            "correct-answer": "Washington D.C",
-            "incorrect-answers" : ["Seattle","Albany","Los Angeles"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Easy",
-            "questions": "What country is the second largest in the world by area?",
-            "correct-answer": "Canada",
-            "incorrect-answers" : ["Russia","China","United States of America"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Easy",
-            "questions": "What is the capital of Indonesia?",
-            "correct-answer": "Jakarta",
-            "incorrect-answers" : ["Bandung","Medan","Palembang"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Medium",
-            "questions": "What is the largest non-continental island in the world?",
-            "correct-answer": "Greenland",
-            "incorrect-answers" : ["New Guinea","Borneo","Madagascar"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Medium",
-            "questions": "Which European city has the highest mileage of canals in the world?",
-            "correct-answer": "Birmingham",
-            "incorrect-answers" : ["Venice","Amsterdam","Berlin"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Medium",
-            "questions": "How many countries are larger than Australia?",
-            "correct-answer": "5",
-            "incorrect-answers" : ["4","3","6"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Hard",
-            "questions": "Where is the fast food chain 'Panda Express' headquartered?",
-            "correct-answer": "Rosemead, California",
-            "incorrect-answers" : ["Sacramento, California","Fresno, California","San Diego, California"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Hard",
-            "questions": "What North American tourist attraction is served by the 'Maid of the Mist' tour company?",
-            "correct-answer": "Niagara Falls",
-            "incorrect-answers" : ["Whistler, British Columbia","Disney World","Yosemite National Park"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Hard",
-            "questions": "What is the tallest mountain in Canada?",
-            "correct-answer": "Mount Logan",
-            "incorrect-answers" : ["Mont Tremblant","Whistler Mountain","Blue Mountain"]
-        },
-        { 
-            "category" : "Geography",
-            "difficulty": "Hard",
-            "questions": "The Hunua Ranges is located in...",
-            "correct-answer": "New Zealand",
-            "incorrect-answers" : ["Nepal","China","Mexico"]
-        }
-    ]
+{
+  "trivia": [
+    {
+      "id": 1,
+      "category": "General Knowledge",
+      "difficulty": "Easy",
+      "questions": "On a dartboard, what number is directly opposite No. 1?",
+      "correctAnswer": "19",
+      "possibleAnswers": [
+        "20",
+        "12",
+        "19",
+        "15"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "General Knowledge",
+      "difficulty": "Easy",
+      "questions": "Five dollars is worth how many nickles?",
+      "correctAnswer": "100",
+      "possibleAnswers": [
+        "100",
+        "50",
+        "25",
+        "69"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "General Knowledge",
+      "difficulty": "Easy",
+      "questions": "What do the letters in the GMT time zone stand for?",
+      "correctAnswer": "Greenwich Mean Time",
+      "possibleAnswers": [
+        "Global Meridian Time",
+        "General Median Time",
+        "Glasgow Man Time",
+        "Greenwich Mean Time"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "General Knowledge",
+      "difficulty": "Medium",
+      "questions": "What are the three starter Pokemon available in Pokemon Black and White?",
+      "correctAnswer": "Snivy, Tepig, Oshawott",
+      "possibleAnswers": [
+        "Snivy, Fennekin, Froakie",
+        "Chespin, Tepig, Froakie",
+        "Snivy, Tepig, Oshawott",
+        "Chespin, Fennekin, Oshawott"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "General Knowledge",
+      "difficulty": "Medium",
+      "questions": "Which country drives on the left side of the road?",
+      "correctAnswer": "Japan",
+      "possibleAnswers": [
+        "Japan",
+        "Germany",
+        "Russia",
+        "China"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "General Knowledge",
+      "difficulty": "Medium",
+      "questions": "After how many years would you celebrate your crystal anniversary?",
+      "correctAnswer": "15",
+      "possibleAnswers": [
+        "20",
+        "10",
+        "25",
+        "15"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "General Knowledge",
+      "difficulty": "Hard",
+      "questions": "The word 'aprosexia' means which of the following?",
+      "correctAnswer": "The inability to concentrate on anything",
+      "possibleAnswers": [
+        "The inability to concentrate on anything",
+        "The inability to make decisions",
+        "A feverish desire to rip one's clothes off",
+        "The inability to stand up"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "General Knowledge",
+      "difficulty": "Hard",
+      "questions": "Which of these banks are NOT authorized to issue currency notes in Hong Kong?",
+      "correctAnswer": "OCBC",
+      "possibleAnswers": [
+        "HSBC",
+        "Standard Chartered",
+        "OCBC",
+        "Bank of China"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "General Knowledge",
+      "difficulty": "Hard",
+      "questions": "In 'Resident Evil', how many inventory slots does Jill have at the start of the game?",
+      "correctAnswer": "10",
+      "possibleAnswers": [
+        "10",
+        "6",
+        "8",
+        "12"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "General Knowledge",
+      "difficulty": "Hard",
+      "questions": "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?",
+      "correctAnswer": "Harry",
+      "possibleAnswers": [
+        "Harry",
+        "Gus",
+        "Phineas",
+        "Ezra"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Cartoon and Animation",
+      "difficulty": "Easy",
+      "questions": "The song 'Little April Shower' features in which Disney cartoon film?",
+      "correctAnswer": "Bambi",
+      "possibleAnswers": [
+        "Cinderella",
+        "Pinocchio",
+        "The Jungle Book",
+        "Bambi"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Cartoon and Animation",
+      "difficulty": "Easy",
+      "questions": "What was the first Disney movie to use CGI?",
+      "correctAnswer": "The Black Cauldron",
+      "possibleAnswers": [
+        "Tron",
+        "Toy Story",
+        "The Black Cauldron",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Cartoon and Animation",
+      "difficulty": "Easy",
+      "questions": "Which of the following is not a Flintstones character?",
+      "correctAnswer": "Lord Rockingham IX",
+      "possibleAnswers": [
+        "Rockhead Slate",
+        "The Great Gazoo",
+        "Barney Rubble",
+        "Lord Rockingham IX"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Cartoon and Animation",
+      "difficulty": "Medium",
+      "questions": "Which city did Anger berate for ruining pizza in 'Inside Out'?",
+      "correctAnswer": "San Francisco",
+      "possibleAnswers": [
+        "Minnesota",
+        "Washington",
+        "San Francisco",
+        "California"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Cartoon and Animation",
+      "difficulty": "Medium",
+      "questions": "What Cartoon Network show aired its first episode on November 4th, 2013?",
+      "correctAnswer": "Steven Universe",
+      "possibleAnswers": [
+        "Steven Universe",
+        "Regular Show",
+        "Adventure Time",
+        "The Amazing World of Gumball"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Cartoon and Animation",
+      "difficulty": "Medium",
+      "questions": "In the TV show 'Rick and Morty', Rick uses the catchphrase 'Wubba Lubba Dub Dub', which means what in Birdperson?",
+      "correctAnswer": "I am in great pain, please help me.",
+      "possibleAnswers": [
+        "I pray that my life ends soon.",
+        "Lets get this party started!",
+        "I am suffering, please help me.",
+        "I am in great pain, please help me."
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Cartoon and Animation",
+      "difficulty": "Hard",
+      "questions": "In the 'Star Wars' universe, what species is Grand Admiral Thrawn?",
+      "correctAnswer": "Chiss",
+      "possibleAnswers": [
+        "Gungans",
+        "Pantorans",
+        "Chiss",
+        "Twi'lek"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Cartoon and Animation",
+      "difficulty": "Hard",
+      "questions": "In 'Rick and Morty', from which dimension do Rick and Morty originate from?",
+      "correctAnswer": "Chiss",
+      "possibleAnswers": [
+        "J1977",
+        "C-136",
+        "Chiss",
+        "C500-a"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Cartoon and Animation",
+      "difficulty": "Hard",
+      "questions": "What town was 'Springfield' from 'The Simpsons' originally named after?",
+      "correctAnswer": "Springfield, Oregon",
+      "possibleAnswers": [
+        "Springfield, Missouri",
+        "Springfield, Oregon",
+        "Springfield, Illinois",
+        "Springfield, Massachusetts"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Cartoon and Animation",
+      "difficulty": "Hard",
+      "questions": "In 'Gravity Falls', what does Quentin Trembley do when he is driven out from the White House?",
+      "correctAnswer": "Eat a salamander and jump out the window.",
+      "possibleAnswers": [
+        "Eat a salamander and jump out the window.",
+        "Leave in peace.",
+        "Jump out the window.",
+        "Release 1,000 captive salamanders into the white house."
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Easy",
+      "questions": "In 'Inuyasha', what are the heroes are looking to collect?",
+      "correctAnswer": "Jewel Shards",
+      "possibleAnswers": [
+        "Dragon Balls",
+        "Rave Stones",
+        "Sacred Stones",
+        "Jewel Shards"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Easy",
+      "questions": "In 'The Melancholy of Haruhi Suzumiya' series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.",
+      "correctAnswer": "God",
+      "possibleAnswers": [
+        "Alien",
+        "God",
+        "Time Traveler",
+        "Esper"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Easy",
+      "questions": "Who is the main heroine of the anime, Full Metal Panic!",
+      "correctAnswer": "Kaname Chidori",
+      "possibleAnswers": [
+        "Teletha Testarossa",
+        "Melissa Mao",
+        "Kaname Chidori",
+        "Kyoko Tokiwa"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Which animation studio animated the 2016 anime ‘Mob Psycho 100’?",
+      "correctAnswer": "Bones",
+      "possibleAnswers": [
+        "A-1 Pictures",
+        "Shaft",
+        "Madhouse",
+        "Bones"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Medium",
+      "questions": "What year does Part 7 of 'JoJo's Bizarre Adventure' take place in?",
+      "correctAnswer": "1890",
+      "possibleAnswers": [
+        "1890",
+        "1888",
+        "1999",
+        "2003"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Medium",
+      "questions": "In 'One Piece', who is the girl who overcame her enslaved past and became an agent of an army to fight the corrupt government?",
+      "correctAnswer": "Koala",
+      "possibleAnswers": [
+        "Boa Hancock",
+        "Koala",
+        "Nico Robin",
+        "Emporio Ivankov "
+      ]
+    },
+    {
+      "id": 27,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Hard",
+      "questions": "In the first episode of Yu-Gi-Oh: Duel Monsters, what book is Seto Kaiba seen reading at Domino High School?",
+      "correctAnswer": "Thus Spoke Zarathustra",
+      "possibleAnswers": [
+        "Beyond Good and Evil",
+        "The Republic",
+        "Thus Spoke Zarathustra",
+        "Meditations"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Hard",
+      "questions": "In 'Hunter x Hunter', what are members in Killua&#039;s family known for being?",
+      "correctAnswer": "Assassins",
+      "possibleAnswers": [
+        "Bandits",
+        "Assassins",
+        "Hunters",
+        "Ninjas"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Hard",
+      "questions": "In the 'Dragon Ball' franchise, what is the name of Goku's brother?",
+      "correctAnswer": "Raditz",
+      "possibleAnswers": [
+        "Gohan",
+        "Vegeta",
+        "Bardock",
+        "Raditz"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "Japanese Anime & Manga",
+      "difficulty": "Hard",
+      "questions": "Which animation studio produced 'Log Horizon'?",
+      "correctAnswer": "Satelite",
+      "possibleAnswers": [
+        "Satelite",
+        "Sunrise",
+        "Xebec",
+        "Production I.G"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "Celebrity",
+      "difficulty": "Easy",
+      "questions": "Gwyneth Paltrow has a daughter named...?",
+      "correctAnswer": "Apple",
+      "possibleAnswers": [
+        "Apple",
+        "Lily",
+        "French",
+        "Dakota"
+      ]
+    },
+    {
+      "id": 32,
+      "category": "Celebrity",
+      "difficulty": "Easy",
+      "questions": "Which celebrity announced his presidency in 2015?",
+      "correctAnswer": "Kanye West",
+      "possibleAnswers": [
+        "Donald Trump",
+        "Leonardo DiCaprio",
+        "Miley Cyrus",
+        "Kanye West"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "Celebrity",
+      "difficulty": "Easy",
+      "questions": "Aubrey Graham is better known as",
+      "correctAnswer": "Drake",
+      "possibleAnswers": [
+        "Travis Scott",
+        "Drake",
+        "Lil Wayne",
+        "2 Chainz"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "Celebrity",
+      "difficulty": "Medium",
+      "questions": "Which famous New York Yankees outfielder did Marilyn Monroe marry?",
+      "correctAnswer": "Joe DiMaggio",
+      "possibleAnswers": [
+        "Tino Martinez",
+        "Babe Ruth",
+        "Joe DiMaggio",
+        "Mason Williams"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "Celebrity",
+      "difficulty": "Medium",
+      "questions": "In which of these TV shows did the chef Gordon Ramsay not appear?",
+      "correctAnswer": "Auction Hunters",
+      "possibleAnswers": [
+        "Ramsay's Kitchen Nightmares",
+        "Hotel Hell",
+        "Auction Hunters",
+        "Hell's Kitchen"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "Celebrity",
+      "difficulty": "Medium",
+      "questions": "What caused Jake Lloyd who played Anakin Skywalker in The Phantom Menace to quit acting?",
+      "correctAnswer": "Bullying",
+      "possibleAnswers": [
+        "Bullying",
+        "Criminal Record",
+        "Nomination for Worst Actor",
+        "Racism"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "Celebrity",
+      "difficulty": "Hard",
+      "questions": "Billy Herrington is from which US state?",
+      "correctAnswer": "New York",
+      "possibleAnswers": [
+        "New York",
+        "Arizona",
+        "California",
+        "Georgia"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "Celebrity",
+      "difficulty": "Hard",
+      "questions": "How tall is Tom Cruise?",
+      "correctAnswer": "5feet 7inches",
+      "possibleAnswers": [
+        "5feet 9inches",
+        "5feet 4inches",
+        "5feet 5inches",
+        "5feet 7inches"
+      ]
+    },
+    {
+      "id": 39,
+      "category": "Celebrity",
+      "difficulty": "Hard",
+      "questions": "When was Elvis Presley born?",
+      "correctAnswer": "January 8, 1935",
+      "possibleAnswers": [
+        "December 13, 1931",
+        "July 18, 1940",
+        "January 8, 1935",
+        "April 17, 1938"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "Celebrity",
+      "difficulty": "Hard",
+      "questions": "What year was O.J. Simpson aquitted of his murder charges?",
+      "correctAnswer": "1995",
+      "possibleAnswers": [
+        "1992",
+        "1996",
+        "1991",
+        "1995"
+      ]
+    },
+    {
+      "id": 41,
+      "category": "Geography",
+      "difficulty": "Easy",
+      "questions": "Which city is the capital of the United States of America?",
+      "correctAnswer": "Washington D.C",
+      "possibleAnswers": [
+        "Seattle",
+        "Albany",
+        "Washington D.C",
+        "Los Angeles"
+      ]
+    },
+    {
+      "id": 42,
+      "category": "Geography",
+      "difficulty": "Easy",
+      "questions": "What country is the second largest in the world by area?",
+      "correctAnswer": "Canada",
+      "possibleAnswers": [
+        "Russia",
+        "China",
+        "Canada",
+        "United States of America"
+      ]
+    },
+    {
+      "id": 43,
+      "category": "Geography",
+      "difficulty": "Easy",
+      "questions": "What is the capital of Indonesia?",
+      "correctAnswer": "Jakarta",
+      "possibleAnswers": [
+        "Bandung",
+        "Jakarta",
+        "Medan",
+        "Palembang"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "Geography",
+      "difficulty": "Medium",
+      "questions": "What is the largest non-continental island in the world?",
+      "correctAnswer": "Greenland",
+      "possibleAnswers": [
+        "New Guinea",
+        "Greenland",
+        "Borneo",
+        "Madagascar"
+      ]
+    },
+    {
+      "id": 45,
+      "category": "Geography",
+      "difficulty": "Medium",
+      "questions": "Which European city has the highest mileage of canals in the world?",
+      "correctAnswer": "Birmingham",
+      "possibleAnswers": [
+        "Birmingham",
+        "Venice",
+        "Amsterdam",
+        "Berlin"
+      ]
+    },
+    {
+      "id": 46,
+      "category": "Geography",
+      "difficulty": "Medium",
+      "questions": "How many countries are larger than Australia?",
+      "correctAnswer": "5",
+      "possibleAnswers": [
+        "4",
+        "3",
+        "6",
+        "5"
+      ]
+    },
+    {
+      "id": 47,
+      "category": "Geography",
+      "difficulty": "Hard",
+      "questions": "Where is the fast food chain 'Panda Express' headquartered?",
+      "correctAnswer": "Rosemead, California",
+      "possibleAnswers": [
+        "Sacramento, California",
+        "Fresno, California",
+        "San Diego, California",
+        "Rosemead, California"
+      ]
+    },
+    {
+      "id": 48,
+      "category": "Geography",
+      "difficulty": "Hard",
+      "questions": "What North American tourist attraction is served by the 'Maid of the Mist' tour company?",
+      "correctAnswer": "Niagara Falls",
+      "possibleAnswers": [
+        "Niagara Falls",
+        "Whistler, British Columbia",
+        "Disney World",
+        "Yosemite National Park"
+      ]
+    },
+    {
+      "id": 49,
+      "category": "Geography",
+      "difficulty": "Hard",
+      "questions": "What is the tallest mountain in Canada?",
+      "correctAnswer": "Mount Logan",
+      "possibleAnswers": [
+        "Mont Tremblant",
+        "Whistler Mountain",
+        "Mount Logan",
+        "Blue Mountain"
+      ]
+    },
+    {
+      "id": 50,
+      "category": "Geography",
+      "difficulty": "Hard",
+      "questions": "The Hunua Ranges is located in...",
+      "correctAnswer": "New Zealand",
+      "possibleAnswers": [
+        "Nepal",
+        "China",
+        "Mexico",
+        "New Zealand"
+      ]
+    }
+  ]
 }
