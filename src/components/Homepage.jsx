@@ -1,5 +1,5 @@
 import TriviaPage from "./TriviaPage";
-import Form from "./Form";
+
 import Options from "./Options";
 import { useState, useEffect } from "react";
 import {Link} from "react-router-dom";
@@ -27,14 +27,20 @@ function Homepage() {
         <div>
             <h1>Quiz Voyage</h1>
 
-            <button>
-                <Link to="/options">Lets Start the Game!</Link>
-                <Link to="/form">Add New Trivia Here!</Link>
+            <button className="button1" >
+                <Link to="/triviaCard">Lets Start the Game!</Link>
             </button>
+            {/* <button>
+                <Link  to="/options" >Choose a category </Link>
+            </button> */}
+            <button className="button2">
+                <Link to="/form">Add New Trivia Here!</Link> 
+            </button>
+                
             
-            <Options trivia={trivia} setChooseCategory={setChooseCategory} />
-            <TriviaPage trivia={trivia} setTrivia={setTrivia} filteredArray={filteredArray} />
-            <Form addTrivia={addTrivia} />
+            <Options setChooseCategory={setChooseCategory} />
+            <TriviaPage setTrivia={setTrivia} filteredArray={filteredArray} />
+            {/* <Form addTrivia={addTrivia} /> */}
         </div>
     )
 }

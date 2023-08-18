@@ -1,15 +1,17 @@
-
+import { useNavigate, } from "react-router-dom";
 
 function Options({setChooseCategory}) { 
+
+    const navigate = useNavigate() 
 
     function handleChooseCategory(e) { 
         setChooseCategory(e.target.value)
     }
 
     return ( 
-        <div>
+        <div className="options">
             
-            <select onChange={handleChooseCategory} >
+            <select onChange={handleChooseCategory} navigate="/">
                 <option value="">--Choose Category--</option>
                 <option value="General Knowledge">General Knowledge</option>
                 <option value="Cartoon and Animation">Cartoon and Animation</option>

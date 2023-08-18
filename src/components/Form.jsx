@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-function Form({addTrivia}) { 
+function Form() { 
+
+    const navigate = useNavigate()
 
     const [category, setCategory] = useState("")
     const [difficulty, setDifficulty] = useState("")
@@ -29,11 +32,11 @@ function Form({addTrivia}) {
     } 
     fetch('http://localhost:3000/trivia', OPTIONS)
     .then(response => response.json())
-    .then(newTriviaData => addTrivia(newTriviaData))
+    .then(() => navigate("/") )
 }
 
     return ( 
-        <div>
+        <div className="form">
             <h2>Add New Trivia: </h2>
             <form onSubmit={handleForm} > 
                 <input type="text" name="category" onChange={handleCategory} placeholder="Category" value={category} /> <br/>

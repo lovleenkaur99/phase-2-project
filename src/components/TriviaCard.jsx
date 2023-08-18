@@ -6,23 +6,26 @@ function TriviaCard({triviaObj}) {
 
     const navigate = useNavigate()
 
-    const [answer, setAnswer] = useState(triviaObj.correctAnswer)
+    const [didAnswerIsTrue, setDidAnswerIsTrue] = useState(false)
+    // answer: "19"
 
+    
 
-    function handlePossibleAnswer() { 
-
-        if(answer === triviaObj.correctAnswer){ 
-            setAnswer(true)
+    function handlePossibleAnswer(e) { 
+        // "19" = "19"
+        if(triviaObj.correctAnswer === e.target.textContent){ 
+            // answer: true
+            setDidAnswerIsTrue(true)    
             console.log("I am correct!")
         } else {
-            setAnswer(false)
+            setDidAnswerIsTrue(false)
             console.log("Am I correct?")
         }
     }
     
     return (
         
-        <div>
+        <div className="card" style={{border : "solid #ebf4f1"}} navigate={navigate("/")} >
             
             <p>{triviaObj.category}</p>
             
@@ -30,7 +33,7 @@ function TriviaCard({triviaObj}) {
             
             <p>{triviaObj.questions}</p>
                 
-            {triviaObj.possibleAnswers.map(answer => <button  onClick={handlePossibleAnswer}  >{answer}</button> )}
+            {triviaObj.possibleAnswers.map(answer => <button disabled={didAnswerIsTrue} style={didAnswerIsTrue ? {backgroundColor: "green"} : {backgroundColor: "red"}}  onClick={handlePossibleAnswer}  >{answer}</button> )}
             
         </div>
     )

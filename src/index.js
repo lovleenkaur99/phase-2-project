@@ -9,9 +9,9 @@ import Options from './components/Options';
 import TriviaCard from './components/TriviaCard';
 import Form from './components/Form';
 import TriviaPage from './components/TriviaPage';
-import LastPage from './components/LastPage';
+// import LastPage from './components/LastPage';
 
-import { singleQuestions } from './loaders';
+// import { singleQuestions, getQuestions } from './loaders';
 
 const router = createBrowserRouter([
 {
@@ -19,9 +19,14 @@ const router = createBrowserRouter([
     element: <App />,
     children: [ 
         {// this is the default route inside App
-            path : true,
+            index : true,
             element: <Homepage />
         },
+        { 
+            path : "triviaCard",
+            element : <TriviaCard />,
+            // loaders : singleQuestions
+        }, 
         {
             path: "options",
             element : <Options/>
@@ -29,19 +34,6 @@ const router = createBrowserRouter([
         { 
             path : "form",
             element : <Form />
-        },
-        { 
-            path : "triviaPage",
-            element : <TriviaPage />
-        },
-        { 
-            path : "triviaCard/:id",
-            element : <TriviaCard />,
-            loaders : singleQuestions
-        },
-        { 
-            path: "lastpage",
-            element : <LastPage/>
         }
     ]}
 ])

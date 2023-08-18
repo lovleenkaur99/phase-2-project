@@ -1,16 +1,63 @@
 body { 
-  background:
-        radial-gradient(circle farthest-side at 0% 50%,#f7f8f3 23.5%,#0000 0)33.6px 48px,
-        radial-gradient(circle farthest-side at 0% 50%,#aeddcb 24%,#0000 0)30.4px 48px,
-        linear-gradient(#f7f8f3 14%,#0000 0, #0000 85%,#f7f8f3 0)0 0,
-        linear-gradient(150deg,#f7f8f3 24%,#aeddcb 0,#aeddcb 26%,#0000 0,#0000 74%,#aeddcb 0,#aeddcb 76%,#f7f8f3 0)0 0,
-        linear-gradient(30deg,#f7f8f3 24%,#aeddcb 0,#aeddcb 26%,#0000 0,#0000 74%,#aeddcb 0,#aeddcb 76%,#f7f8f3 0)0 0,
-        linear-gradient(90deg,#aeddcb 2%,#f7f8f3 0,#f7f8f3 98%,#aeddcb 0%)0 0 #f7f8f3;
-  background-size: 64px 96px;
-  background-color: #f7f8f3;
+  background : #d1e0db;
 }
 
+h1 { 
+  font-size: 100px;
+  color: #0c133b;
+}
 
+* { 
+  padding: 20px;
+  margin: 20px;
+}
+
+.card { 
+  font-size: 50px;
+  border-radius: 40px;
+}
+
+.card button { 
+  color: #0c133b;
+  font-size: 25px;
+}
+
+button { 
+  color: #0c133b;
+}
+
+.form h2 { 
+  font-size: 50px;
+}
+
+.form input {  
+  width: 500px;
+  font-size: 25px;
+}
+
+.form button { 
+  width: 200px;
+  font-size: 25px;
+  background: #ebf4f1;
+}
+
+.options select{ 
+  font-size: 25px;
+}
+
+.button1 { 
+  font-size: 20px;
+  background: #ebf4f1;
+}
+
+.button2 { 
+  font-size: 20px;
+  background: #ebf4f1;
+}
+
+.card button { 
+  border-radius: 15px;
+}
 
 
 
