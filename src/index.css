@@ -15,11 +15,13 @@ h1 {
 .card { 
   font-size: 50px;
   border-radius: 40px;
+
 }
 
 .card button { 
   color: #0c133b;
   font-size: 25px;
+  border-radius: 10px;
 }
 
 button { 
@@ -43,21 +45,21 @@ button {
 
 .options select{ 
   font-size: 25px;
+  text-align: center;
 }
 
 .button1 { 
   font-size: 20px;
   background: #ebf4f1;
+  border-radius: 20px;
 }
 
 .button2 { 
   font-size: 20px;
   background: #ebf4f1;
+  border-radius: 20px;
 }
 
-.card button { 
-  border-radius: 15px;
-}
 
 
 

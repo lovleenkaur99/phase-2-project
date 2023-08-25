@@ -8,13 +8,13 @@ function Form() {
     const [category, setCategory] = useState("")
     const [difficulty, setDifficulty] = useState("")
     const [question, setQuestion] = useState("")
-    const [correctAnswer, setCorrectAnser] = useState("")
-    const [possibleAnswers, setPossibleAnswers] = useState([""])
+    const [correctAnswer, setCorrectAnswer] = useState("")
+    const [possibleAnswers, setPossibleAnswers] = useState("")
 
     const handleCategory = (e) => setCategory(e.target.value)
     const handleDifficulty = (e) => setDifficulty(e.target.value)
     const handleQuestion = (e) => setQuestion(e.target.value)
-    const handleCorrectAnswer = (e) => setCorrectAnser(e.target.value)
+    const handleCorrectAnswer = (e) => setCorrectAnswer(e.target.value)
     const handlePossibleAnswers = (e) => setPossibleAnswers(e.target.value)
 
     function handleForm(e) { 
@@ -27,12 +27,16 @@ function Form() {
             "Content-type" : "application/json"
         },
         body : JSON.stringify({ 
-            category, difficulty, question, correctAnswer, possibleAnswers
+            "category": category, 
+            "difficulty": difficulty, 
+            "question": question, 
+            "correctAnswer": correctAnswer, 
+            "possibleAnswers": possibleAnswers.split(",")
         })
     } 
     fetch('http://localhost:3000/trivia', OPTIONS)
     .then(response => response.json())
-    .then(() => navigate("/") )
+    .then(() => navigate("/")) 
 }
 
     return ( 
@@ -43,7 +47,7 @@ function Form() {
                 <input type="text" name="difficulty" onChange={handleDifficulty} placeholder="Difficulty" value={difficulty} /> <br/>
                 <input type="text" name="question" onChange={handleQuestion} placeholder="Questions" value={question} /> <br/>
                 <input type="text" name="correctAnswer" onChange={handleCorrectAnswer} placeholder="Correct Answer" value={correctAnswer} /> <br/>
-                <input type="text" name="posibbleAnswers" onChange={handlePossibleAnswers} placeholder="Possible Answers" value={possibleAnswers} /> <br/>
+                <input type="array" name="possibleAnswers" onChange={handlePossibleAnswers} placeholder="Possible Answers" value={possibleAnswers} /> <br/>
                 <button>Add Trivia</button>
             </form>
 
@@ -52,3 +56,4 @@ function Form() {
 }
 
 export default Form; 
+
